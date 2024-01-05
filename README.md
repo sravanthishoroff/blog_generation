@@ -16,12 +16,16 @@ This project utilizes Streamlit to create a simple web interface for generating 
 ##  Usage
 
 1. Clone Repository
+    ```bash
     git clone https://github.com/your-username/blog-generator.git
 2. Navigate to the Project Directory
+    ```bash
     cd blog-generator
 3. Install dependencies:
+    ```bash
     pip install -r requirements.txt
 4. Run the streamlit app
+    ```bash
     streamlit run app.py
 5. Open the provided URL in your web browser.
 
@@ -30,11 +34,11 @@ This project utilizes Streamlit to create a simple web interface for generating 
 7. Click the "Generate" button to get a generated blog.
 
 ## Project Structure
-app.py: Main Streamlit application script.
-models/llama-2-7b-chat.ggmlv3.q8_0.bin: LLAMA 2 language model file.
-langchain/prompts.py: PromptTemplate class for generating prompts.
-langchain/llms.py: CTransformers class for loading LLAMA models.
+- app.py: Main Streamlit application script.
+- models/llama-2-7b-chat.ggmlv3.q8_0.bin: LLAMA 2 language model file.
+- langchain/prompts.py: PromptTemplate class for generating prompts.
+- langchain/llms.py: CTransformers class for loading LLAMA models.
 
 ## Acknowledgments
-This project uses the Streamlit library for creating interactive web applications.
-LLAMA 2 is a language model used for generating responses.
+- This project uses the Streamlit library for creating interactive web applications.
+- LLAMA 2 is a language model used for generating responses.
